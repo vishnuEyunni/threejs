@@ -1,0 +1,16 @@
+{
+  "name": "threejs",
+  "version": "1.0.0",
+  "description": "threejs implementation with react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-work_user1:vishnuEyunni/threejs.git"
+  },
+  "keywords": [],
+  "author": "vishnu Eyunni <vishnueyunni123@gmail.com>",
+  "license": "MIT"
+}
