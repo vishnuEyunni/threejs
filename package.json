@@ -2,9 +2,10 @@
   "name": "threejs",
   "version": "1.0.0",
   "description": "threejs implementation with react",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "webpack-dev-server --open --config ./webpack.config.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -12,5 +13,12 @@
   },
   "keywords": [],
   "author": "vishnu Eyunni <vishnueyunni123@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
